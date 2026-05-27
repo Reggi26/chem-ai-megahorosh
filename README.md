@@ -15,6 +15,8 @@ ML-проект по предсказанию биологической акт�
 - SI (Selectivity Index) — индекс селективности.
 
 Задача оценивается по **метрике RMSE (Root Mean Squared Error)**, усредненный по трем таргетам:
+
+
 **score = (RMSE(IC50) + RMSE(CC50) + RMSE(SI)) / 3**
 
 # Используемые данные
@@ -122,7 +124,6 @@ requirements.txt — список используемых Python-библиот
 - Scikit-learn
 - CatBoost
 - XGBoost
-- Jupyter Notebook
 
 
 # Результаты
